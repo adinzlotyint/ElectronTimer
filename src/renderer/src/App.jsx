@@ -7,7 +7,9 @@ function App() {
   return (
     <>
       <TopBar></TopBar>
-      <Timer isOverlay={isOverlay}></Timer>
+      <div className="bg-black bg-opacity-40 p-2 rounded-b-xl">
+        <Timer isOverlay={isOverlay}></Timer>
+      </div>
     </>
   )
 }
