@@ -9,7 +9,10 @@ const TopBar = () => {
 
   return (
     <>
-      <div className="bg-blue-500 w-screen h-7 z-0" style={{ WebkitAppRegion: 'drag' }}></div>
+      <div
+        className="bg-blue-500 w-screen h-7 z-0 rounded-t-lg"
+        style={{ WebkitAppRegion: 'drag' }}
+      ></div>
       <div id="control-buttons" className="absolute top-0 right-2 z-[1]">
         <button
           id="minimize-button"

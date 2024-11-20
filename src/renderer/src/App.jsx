@@ -8,7 +8,6 @@ function App() {
     <>
       <TopBar></TopBar>
       <Timer isOverlay={isOverlay}></Timer>
-      <h1 className="text-2xl text-red-800">Hello world</h1>
     </>
   )
 }
